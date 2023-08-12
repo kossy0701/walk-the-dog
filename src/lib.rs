@@ -1,3 +1,6 @@
+#[macro_use]
+mod browser;
+
 use std::{collections::HashMap, rc::Rc, sync::Mutex};
 use serde::Deserialize;
 
